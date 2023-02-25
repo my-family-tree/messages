@@ -1,0 +1,17 @@
+{
+    "name": "my-family-tree/messages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MyFamilyTree\\Messages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tien",
+            "email": "tien.xuan.vo@gmail.com"
+        }
+    ],
+    "require": {}
+}
