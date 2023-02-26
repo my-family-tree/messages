@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Message;
+namespace MyFamilyTree\Messages\Message;
 
 class UserCreated
 {
