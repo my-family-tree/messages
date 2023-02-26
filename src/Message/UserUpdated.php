@@ -4,7 +4,7 @@ namespace MyFamilyTree\Messages\Message;
 
 class UserUpdated
 {
-    public function __construct(public readonly int $userId)
+    public function __construct(public readonly string $userId)
     {
     }
 }
