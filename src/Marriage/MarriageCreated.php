@@ -1,8 +1,8 @@
 <?php
 
-namespace MyFamilyTree\Messages\Message;
+namespace MyFamilyTree\Messages\Marriage;
 
-class MarriageDeleted
+class MarriageCreated
 {
     public function __construct(public readonly string $marriageId)
     {

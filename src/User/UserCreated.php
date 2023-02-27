@@ -1,8 +1,8 @@
 <?php
 
-namespace MyFamilyTree\Messages\Message;
+namespace MyFamilyTree\Messages\User;
 
-class UserDeleted
+class UserCreated
 {
     public function __construct(public readonly string $userId)
     {
